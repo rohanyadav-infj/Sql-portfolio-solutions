@@ -23,3 +23,4 @@ INSERT INTO employees VALUES (1002, 'Meera Rao', 1, 40000, '2021-12-15');
 -- Example Queries
 SELECT * FROM employees WHERE salary > 40000;
 SELECT emp_name, dept_name FROM employees JOIN departments ON employees.dept_id = departments.dept_id;
+
